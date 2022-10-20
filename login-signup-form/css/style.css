@@ -42,6 +42,7 @@ form input {
 form .radio-btn {
   font-size: 0.8rem;
   display: flexbox;
+  margin-top: 10px;
 }
 
 button {
@@ -68,12 +69,60 @@ input:focus {
   font-weight: bold;
 }
 
+input:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  outline: #07001f;
+}
+
 textarea {
+  width: 92%;
+  height: 80px;
   border: none;
   outline: none;
   background: #e4e4e4;
   border-radius: 30px;
   text-decoration: none;
-  padding: 12px 20px;
+  padding: 20px 20px;
   resize: none;
+  margin-top: 10px;
+}
+
+.terms {
+  margin-top: 0.2rem;
+}
+
+.terms input {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.terms label {
+  font-size: 0.7rem;
+}
+.terms label a {
+  text-decoration: none;
+  color: rgb(17, 107, 143);
+}
+
+select {
+  width: 92%;
+  border: none;
+  outline: none;
+  background: #e4e4e4;
+  border-radius: 20px;
+  padding: 12px 30px;
+  color: gray;
+  text-align: left;
+}
+
+.member {
+  font-size: 0.7rem;
+  margin-top: 10px;
+  display: inline-block;
+}
+.member a {
+  text-decoration: none;
+  color: rgb(17, 107, 143);
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;600&display=swap");
 :root {
   --primary-color:#dfe9f5;
+  --button-color: rgb(210, 179, 26);
 }
 
 * {
@@ -11,14 +12,14 @@
 }
 
 body {
-  background: var(--primary-color);
+  background-image: url("https://images.unsplash.com/photo-1664433977575-6030c8641880?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1635&q=80");
 }
 
 .wrapper {
   width: 330px;
   padding: 2rem;
   margin: 10% auto;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
@@ -54,12 +55,12 @@ button {
   border: none;
   width: 90%;
   color: white;
-  background: rgb(17, 107, 143);
+  background: var(--button-color);
   cursor: pointer;
 }
 
 button:hover {
-  background: rgba(17, 107, 143, 0.8);
+  background: rgba(210, 179, 26, 0.8);
 }
 
 input:focus {
@@ -103,7 +104,7 @@ textarea {
 }
 .terms label a {
   text-decoration: none;
-  color: rgb(17, 107, 143);
+  color: var(--button-color);
 }
 
 select {
@@ -124,5 +125,5 @@ select {
 }
 .member a {
   text-decoration: none;
-  color: rgb(17, 107, 143);
+  color: var(--button-color);
 }/*# sourceMappingURL=style.css.map */

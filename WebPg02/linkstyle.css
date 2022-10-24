@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+body {
+    background-color: #ebdbab;
+    color: rgb(114, 105, 77);
+    font-family: poppins;
+    font-size:16px;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container{
+    width:100;
+    font-size:20px;
+    margin:auto;
+    overflow:hidden; 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container{
+    background-color:rgba(160, 81, 45, 0.404); 
+}
+
+#navbar{
+    background-color: rgb(114, 105, 77); 
+    color:#ebdbab;;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:#ebdbab;
+    font-weight: normal;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+
+#showcase{
+    background-image:url('https://images.unsplash.com/photo-1615966650071-855b15f29ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=966&q=80');
+    background-repeat: no-repeat;
+    background-position:center center;
+    opacity:0.7;
+    height:490px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+#showcase h1{
+    color:rgba(241, 193, 147, 0.973);
+    font-size:25px;
+    line-height:1.5em;
+    padding-top:30px;
+    padding-right:120px;
+    padding-left:120px;
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding:30px 30px;
+    box-sizing:border-box;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background:rgb(114, 105, 77);
+    color:#ebdbab;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+#main-footer{
+    background-color: rgb(114, 105, 77);
+    color:#ebdbab;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float:none;
+    }
+
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}

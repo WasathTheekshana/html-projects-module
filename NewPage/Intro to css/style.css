@@ -1,0 +1,14 @@
+body{
+    background-image: url(https://www.vu.edu.au/sites/default/files/nsbm-green-university-town.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    background-attachment: fixed;
+}
+
+.wrapper{
+    width: 50%;
+    margin: 50vh;
+    background-color: antiquewhite;
+}
+

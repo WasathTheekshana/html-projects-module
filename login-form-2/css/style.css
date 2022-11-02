@@ -26,29 +26,89 @@ body {
   text-align: center;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
-.wrapper form h1 {
-  font-size: 2rem;
-}
 .wrapper form input {
-  margin-top: 10px;
-  border: none;
+  width: 92%;
   outline: none;
-  background-color: rgb(234, 234, 234);
-  text-align: center;
+  border: 1px solid white;
+  padding: 12px 20px;
+  margin-bottom: 10px;
   border-radius: 20px;
-  padding: 10px;
+  background: #e4e4e4;
 }
-.wrapper form .pass {
-  margin-top: 20px;
-  font-size: 12px;
+.wrapper form .radio-btn {
+  font-size: 0.8rem;
+  display: flexbox;
+  margin-top: 10px;
 }
 .wrapper button {
-  padding: 10px;
-  width: 92%;
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  padding: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 90%;
+  color: white;
+  background: var(--button-color);
+  cursor: pointer;
 }
-
-h1 {
-  font-size: 2rem;
-  color: #07001f;
-  margin-bottom: 1.2rem;
+.wrapper button:hover {
+  background: rgba(210, 179, 26, 0.8);
+}
+.wrapper input:focus {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  background-color: #07001f;
+  color: white;
+  font-weight: bold;
+}
+.wrapper input:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  outline: #07001f;
+}
+.wrapper textarea {
+  width: 92%;
+  height: 80px;
+  border: none;
+  outline: none;
+  background: #e4e4e4;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 20px 20px;
+  resize: none;
+  margin-top: 10px;
+}
+.wrapper .terms {
+  margin-top: 0.2rem;
+}
+.wrapper .terms input {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.wrapper .terms label {
+  font-size: 0.7rem;
+}
+.wrapper .terms label a {
+  text-decoration: none;
+  color: var(--button-color);
+}
+.wrapper select {
+  width: 92%;
+  border: none;
+  outline: none;
+  background: #e4e4e4;
+  border-radius: 20px;
+  padding: 12px 30px;
+  color: gray;
+  text-align: left;
+}
+.wrapper .member {
+  font-size: 0.7rem;
+  margin-top: 10px;
+  display: inline-block;
+}
+.wrapper .member a {
+  text-decoration: none;
+  color: var(--button-color);
 }/*# sourceMappingURL=style.css.map */

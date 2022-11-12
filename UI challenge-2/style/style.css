@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Inter";
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.container .left {
+  display: flex;
+  flex: 0 0 50vw;
+}
+.container .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 0 0 50vw;
+}
+.container .right h1 {
+  font-size: 2rem;
+}
+.container .right .right-form {
+  font-size: 1rem;
+}
+.container .right .right-form input {
+  width: 30vw;
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+.container .right .right-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .right .right-form form .form-content {
+  margin: 20px;
+  width: 30vw;
+  color: rgb(111, 111, 111);
+  line-height: 20px;
+}
+.container .right .right-form form .form-content a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.container .right .right-form form .form-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .right .right-form form .form-button button {
+  width: 30vw;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: black;
+  color: white;
+  font-size: 1.1rem;
+}
+.container .right .right-form form .form-button button .google {
+  width: 15px;
+}
+.container .right .right-form form .form-button #google-btn-id {
+  background: white;
+  color: black;
+}
+.container .right .right-form .form-bottom {
+  margin-top: 30px;
+}
+.container .right .right-form .form-bottom a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

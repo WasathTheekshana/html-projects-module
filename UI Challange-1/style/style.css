@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.container .left {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50vw;
+}
+.container .left .logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.container .left .login-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .left .login-area h1, .container .left .login-area p {
+  text-align: center;
+}
+.container .left .login-area button img {
+  width: 15px;
+}/*# sourceMappingURL=style.css.map */

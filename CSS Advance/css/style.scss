@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Open Sans';
+}
+
+.container{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .personal-details{
+        background-color: white;
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+        padding: 20px;
+
+        .hero-heading{
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .hero-content{
+            padding-left: 40px;
+            padding-right: 40px;
+            text-align: center;
+        }
+        
+    
+        img{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-left: 150px;
+            border-radius: 100%;
+        }
+        
+    }
+}
+
+.personal-details:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+}

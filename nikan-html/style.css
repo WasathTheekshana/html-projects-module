@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    background-image: url('Hero\ Image.svg');
+    width: 100vw;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50%;
+    background-size: 100%;
+}
+
+.intro-section{
+    width: 100vw;
+    height: 100vw;
+    background-color: white
+}
